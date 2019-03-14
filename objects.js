@@ -13,3 +13,8 @@ function  removeFromPlaylist(artistName, playlist)  {
   delete artistName[playlist];
   return  playlist;
 }
+
+function  removeFromPlaylist(artistName, playlist)  {
+  delete artistName.playlist;
+  return  playlist;
+}

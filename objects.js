@@ -1,6 +1,6 @@
-var playlist = {
-  prince: 'corvette'
-};
+// var playlist = {
+//   prince: 'corvette'
+// };
 
 var playlist = new Object({ prince: 'corvette' })
 

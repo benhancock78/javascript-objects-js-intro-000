@@ -9,7 +9,7 @@ function  updatePlaylist (playlist, artistName, songTitle){
   return  playlist;
 }
 
-function  removeFromPlaylist(artistName, playlist)  {
+function  removeFromPlaylist(Slowdive, playlist)  {
   delete playlist['Slowdive'];
   return  playlist;
 }
